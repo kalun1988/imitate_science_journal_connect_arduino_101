@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-bluetooth-peripheral-usage-description": {
+      "TEXT": "connect with Arduino sensor",
+      "PACKAGE_NAME": "io.cocoon.sample.notifications"
+    },
+    "cordova-plugin-bluetoothle": {
+      "PACKAGE_NAME": "io.cocoon.sample.notifications"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cocoon.sample.notifications"
+    }
+  },
+  "dependent_plugins": {}
+}

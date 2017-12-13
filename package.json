@@ -1,0 +1,23 @@
+{
+  "name": "io.cocoon.sample.notifications",
+  "version": "1.0.0",
+  "displayName": "Cocoon notifications demo",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-bluetooth-peripheral-usage-description": {
+        "TEXT": "connect with Arduino sensor"
+      },
+      "cordova-plugin-bluetoothle": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-bluetooth-peripheral-usage-description": "*",
+    "cordova-plugin-bluetoothle": "*",
+    "cordova-plugin-whitelist": "1"
+  }
+}
